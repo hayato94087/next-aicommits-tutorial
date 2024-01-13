@@ -25,6 +25,9 @@ devDependencies:
   '@types/react-dom':
     specifier: ^18
     version: 18.0.0
+  aicommits:
+    specifier: ^1.11.0
+    version: 1.11.0
   autoprefixer:
     specifier: ^10.0.1
     version: 10.0.1(postcss@8.4.33)
@@ -56,6 +59,10 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.1
+    dev: true
+
+  /@dqbd/tiktoken@1.0.7:
+    resolution: {integrity: sha512-bhR5k5W+8GLzysjk8zTMVygQZsgvf7W1F0IlL4ZQ5ugjo5rCyiwGM5d8DYriXspytfu98tv59niang3/T+FoDw==}
     dev: true
 
   /@eslint/eslintrc@1.4.1:
@@ -367,6 +374,13 @@ packages:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+    dev: true
+
+  /aicommits@1.11.0:
+    resolution: {integrity: sha512-YRy+M230yIuJ+j3YqXRAtAbmR2rJSzST5TbJASPXqaIh7kMN477DGQS1cwqwTJeBdMXKBJrWJAgVd//LkoA4Wg==}
+    hasBin: true
+    dependencies:
+      '@dqbd/tiktoken': 1.0.7
     dev: true
 
   /ajv@6.12.6:
