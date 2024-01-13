@@ -1,3 +1,4 @@
+import Button from "@/components/button";
 import { type FC } from "react";
 
 const Home: FC = () => {
@@ -8,6 +9,7 @@ const Home: FC = () => {
         <span className="text-blue-500">Hello</span>
         <span className="text-red-500">World</span>
       </div>
+      <Button />
     </div>
   );
 };
